@@ -5,7 +5,7 @@ metadata:
   labels:
     provider: k6
 spec:
-  id: project-a
+  id: project-b
   compositionRef:
     name: test-k6
   parameters:
