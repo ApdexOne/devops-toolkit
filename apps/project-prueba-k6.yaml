@@ -9,7 +9,7 @@ spec:
   compositionRef:
     name: test-k6
   parameters:
-    image: "norgefajardo/test-k6:b979954223b0cbeeacc3f2627bcfe06b1699b810"
+    image: "norgefajardo/test-k6:5c8aad2ee6fce2bbaa0f8d7373af5034d78e8ec5"
     args: ["run","/tmp/script.js","-o","output-prometheus-remote"]
     schedule: "30 2 * * *"
     cpu: 100Mi
