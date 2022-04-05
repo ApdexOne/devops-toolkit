@@ -9,7 +9,7 @@ spec:
   compositionRef:
     name: test-k6
   parameters:
-    image: "norgefajardo/test-k6:37b263732b5946ed14c2ab17b804daa37863ff8e"
+    image: "norgefajardo/test-k6:516875eeadf021856bdd839c79a7019439428205"
     schedule: "30 5 * * 2"
     cpu: 100m
     memory: 28M
